@@ -11,7 +11,7 @@ deployment:
         revision_location:
           revision_type: S3
           s3_location:
-            bucket: us-east-bucket-1234545
+            bucket: circleci-testbucket-123432
             key_pattern: circleci-demo-app-{BRANCH}-{SHORT_COMMIT}
         deployment_group: circleci-demo-dg
 
