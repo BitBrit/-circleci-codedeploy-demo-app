@@ -7,11 +7,11 @@ deployment:
     codedeploy:
       circleci-codedeploy-demo-app:
         application_root: /
-        region: us-east-1
+        region: us-west-2
         revision_location:
           revision_type: S3
           s3_location:
-            bucket: glob-bucket-east-1
+            bucket: us-east-bucket-1234545
             key_pattern: circleci-demo-app-{BRANCH}-{SHORT_COMMIT}
         deployment_group: circleci-demo-dg
 
