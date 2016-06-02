@@ -14,3 +14,4 @@ deployment:
             bucket: glob-bucket-east-1
             key_pattern: circleci-demo-app-{BRANCH}-{SHORT_COMMIT}
         deployment_group: circleci-demo-dg
+
